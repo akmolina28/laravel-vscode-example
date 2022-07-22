@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "artisan.docker.command": "./vendor/bin/sail",
+  "artisan.docker.enabled": true,
+  "phpunit.command": "./vendor/bin/sail",
+  "phpunit.paths": {
+    "${workspaceFolder}": "/var/www/html"
+  },
+  "phpunit.phpunit": "test"
+}

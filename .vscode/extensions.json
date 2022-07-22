@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "bmewburn.vscode-intelephense-client",
+    "emallin.phpunit",
+    "dbaeumer.vscode-eslint",
+    "lacroixdavid1.vscode-format-context-menu",
+    "ryannaddy.laravel-artisan",
+    "esbenp.prettier-vscode",
+    "vue.volar",
+    "mikestead.dotenv",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "sdras.vue-vscode-snippets",
+    "naumovs.color-highlight",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "ms-azuretools.vscode-docker",
+    "Vue.volar"
+  ]
+}
