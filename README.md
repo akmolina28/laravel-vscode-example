@@ -50,3 +50,5 @@ code .
 ```
 
 7. From the command palette (ctrl+shift+p) run "Run Test Task" and open the APP_URL
+
+8. Install recommended extensions
