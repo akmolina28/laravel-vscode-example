@@ -18,7 +18,7 @@ $ cp .env.example .env
 $ nano .env
 ```
 
-2. Install Composer packages (including Sail)
+3. Install Composer packages (including Sail)
 
 ```
 $ docker run --rm \
@@ -29,23 +29,24 @@ $ docker run --rm \
     composer install --ignore-platform-reqs
 ```
 
-3. Start Sail
+4. Start Sail
 
 ```
 $ ./vendor/bin/sail up -d
 ```
 
-4. Build
+5. Finish Laravel Setup
 
 ```
 $ sail artisan migrate
+$ sail artisan key:generate
 $ sail npm install
 ```
 
-5. Open VSCode
+6. Open VSCode
 
 ```
 code .
 ```
 
-6. From the command palette (ctrl+shift+p) run "Run Test Task" and open the APP_URL
+7. From the command palette (ctrl+shift+p) run "Run Test Task" and open the APP_URL
