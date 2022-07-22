@@ -11,6 +11,13 @@ $ git clone https://github.com/akmolina28/laravel-vscode-example
 $ cd laravel-vscode-example
 ```
 
+2. Create .env file, edit as desired
+
+```
+$ cp .env.example .env
+$ nano .env
+```
+
 2. Install Composer packages (including Sail)
 
 ```
@@ -31,7 +38,6 @@ $ ./vendor/bin/sail up -d
 4. Build
 
 ```
-$ cp .env.example .env
 $ sail artisan migrate
 $ sail npm install
 ```
