@@ -14,6 +14,7 @@
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     "ms-azuretools.vscode-docker",
-    "Vue.volar"
+    "Vue.volar",
+    "xdebug.php-debug"
   ]
 }
