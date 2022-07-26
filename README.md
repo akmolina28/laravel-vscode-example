@@ -1,7 +1,11 @@
 # laravel-vscode-example
-Laravel starter project pre-configured for VSCode (WSL2)
+Laravel 9 starter project pre-configured for VSCode (WSL2) with extensions for syntax highlighting, intellisense, code formatting, phpunit, and more.
 
-Requires Docker for Windows (WSL2)
+Full write-up: https://kleypot.com/laravel-development-windows-2022/
+
+## Installation in Windows
+
+Requires WSL, Docker, and VSCode.
 
 1. Clone
 
@@ -46,9 +50,9 @@ $ sail npm install
 6. Open VSCode
 
 ```
-code .
+$ code .
 ```
 
 7. From the command palette (ctrl+shift+p) run "Run Test Task" and open the APP_URL
 
-8. Install recommended extensions
+8. Install extensions (see workspace recommendations)
